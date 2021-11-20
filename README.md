@@ -24,7 +24,7 @@ Then, it will find the inner and outer track borders and define the search space
 
 Run the ```main.py``` script to see the optimizer work. Inside the main function you will have the possibility to change the hyper-parameters of the PSO algorithm.
 
-To find the racing line, the algorithm will fit a cubic spline to the sector points and compute the vehicle's speed at each point of the racing line with a simple formula using the coefficient of friction (optionally it is possible to add the down-force and the vehicle's mass).
+To find the racing line, the algorithm will fit a cubic spline to the sector points and compute the vehicle's speed at each point of the racing line with a simple formula using the coefficient of friction and the radius of the corner (optionally it is possible to add the down-force and the vehicle's mass).
 
 ![](imgs/RacingLineEvolution.gif)
 
