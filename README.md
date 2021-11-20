@@ -6,8 +6,10 @@ This repository contains a racing line optimization algorithm in python that use
 
 This version was developed and tested with ```python==3.8.12```. The following modules are required:
 * ```matplotlib```
+* ```numpy```
+* ```scipy```
 * ```shapely```
-* ```scipy``` 
+
 
 ## How it works
 
