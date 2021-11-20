@@ -32,4 +32,4 @@ To find the racing line, the algorithm will fit a cubic spline to the sector poi
 
 ## License
 
-This project is under the MIT license. See [LICENSE](https://github.com/ParsaD23/MotoGP-API/blob/master/LICENSE) for more information.
+This project is under the MIT license. See [LICENSE](https://github.com/ParsaD23/Racing-Line-Optimization-with-PSO/blob/master/LICENSE) for more information.
