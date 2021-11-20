@@ -29,7 +29,7 @@ def main():
 	
 	# Read tracks from json file
 	json_data = None
-	with open('tracks.json') as file:
+	with open('data/tracks.json') as file:
 		json_data = json.load(file)
 
 	track_layout = json_data['test_track']['layout']
