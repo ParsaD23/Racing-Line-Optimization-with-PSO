@@ -18,7 +18,7 @@ First of all, we need to define the structure of the input data and which parame
 ### Data preprocessing
 The _input data_ (i.e. the track layout) is stored in the ```tracks.json``` file: it consists of an array of points defining the central line of the track and the track width (which is considered constant along the track).
 
-Then, it will find the inner and outer track borders and define the search space of each sector (defined as a segment that goes from one border to the other of the track). The points through which the racing line passes, will move along these segments:
+Then the algorithm will find the inner and outer track borders and define the search space of each sector (i.e. a segment that goes from one border to the other of the track). The points through which the racing line passes, will move along these segments:
 
 ![](imgs/Sectors.png)
 
